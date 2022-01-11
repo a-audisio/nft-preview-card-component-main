@@ -4,30 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
   
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div id="card">
+    <div class="image-container">
+      <img src="./images/image-equilibrium.jpg" alt="NFT image" id="nft-img">
+      <div class="overlay">
+        <a href="#" class="icon disable-select" title="View">
+          <img src="./images/icon-view.svg" alt="View" id="view-icon">
+        </a>
+      </div>
+    </div>
+    
+    <div id="details">
+      <h2 id="title" ><a href="#" class="link">Equilibrium #3429</a></h2>
 
-  Equilibrium #3429
+      <p>Our Equilibrium collection promotes balance and calm.</p>
 
-  Our Equilibrium collection promotes balance and calm.
+      <div class="row spacebtw">
+        <div class="row">
+          <img src="./images/icon-ethereum.svg" alt="Crypto icon" id="crypto-icon"><h3 id="balance">0.041 ETH</h3>
+        </div>
+        <div class="row">
+          <img src="./images/icon-clock.svg" alt="Clock icon" id="clock"> 3 days left
+        </div>
+      </div>
+      
+      <hr class="line">
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
+      <div class="row">
+        <img src="./images/image-avatar.png" alt="Clock icon" id="avatar">
+        Creation of&nbsp;<a href="#" class="link">Jules Wyvern</a>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/a-audisio">Alessandro Audisio</a>.
   </div>
 </body>
 </html>
