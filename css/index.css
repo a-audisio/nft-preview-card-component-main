@@ -123,6 +123,7 @@ body {
 .link {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
+    transition: .3s ease;
 }
 .link:hover {
     color: hsl(178, 100%, 50%);
