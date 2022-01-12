@@ -21,13 +21,16 @@ Users should be able to:
 
 ### Screenshot
 
+- Desktop view:
 ![Desktop view](./screenshots/screenshot_desktop.png)
+
+- Mobile View:
 ![Mobile view](./screenshots/screenshot_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-using-css-flexbox-fo26mgtz5)
-- Live Site URL: [Add live site URL here](https://a-audisio.github.io/nft-preview-card-component-main/)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/nft-preview-card-using-css-flexbox-fo26mgtz5)
+- Live Site URL: [live site](https://a-audisio.github.io/nft-preview-card-component-main/)
 
 ## Author
 
